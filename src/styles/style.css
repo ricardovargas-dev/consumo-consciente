@@ -1,0 +1,25 @@
+@import url(https://use.typekit.net/xhd0fjm.css);
+
+:root {
+    --type: 'Proxima Nova';
+    --color-white: #FFFFFF;
+    --color-thin-gray: #EEEDED;
+    --color-light-gray: #DADADA;
+    --color-gray: #9D9C9C;
+    --color-dark-gray: #4E4E4E;
+    --color-orange: #FF782D;
+    --color-light-green: #A8CF45;
+    --color-green: #759E2E;
+    --color-dark-green: #436D17;
+}
+
+body {
+    color: var(--color-dark-gray);
+    background-color: var(--color-white);
+    font-family: var(--type);
+    font-size: 9px;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: normal;
+    font-style: normal;
+}
