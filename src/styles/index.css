@@ -5,7 +5,7 @@
     display: flex;
     flex-direction:column;
     align-items: center;
-    padding: 7em 0em 3em 0em;
+    padding: 6em 0em 3em 0em;
 }
 
 .consumo-consciente {
@@ -95,4 +95,141 @@
 
 .produto-sustentavel {
     height: 32px;
+}
+
+
+/* SEÇÃO PAPEL VS PLÁSTICO */
+.papel-vs-plastico {
+    height: 424px;
+    position: relative;
+}
+
+.img-copo {
+    width: 200px; 
+    height: auto; 
+}
+
+.flechas-copo {
+    width: 350px; 
+    height: auto; 
+}
+
+.flechas-copo,
+.img-copo {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; 
+}
+
+.flechas-copo {
+    left: 52%;
+}
+
+.img-copo {
+    left: 50%;
+}
+
+.metade-1,
+.metade-2 {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+}
+
+
+.metade-1 {
+    left: 0;
+    background-color: var(--color-light-green);
+}
+
+.metade-2 {
+    right: 0;
+    background-color: var(--color-dark-gray);
+}
+
+/* SEÇÃO ADOTE */
+.adote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4em;
+}
+
+.adote-conteudo {
+    gap: 20px;
+}
+
+.adote-titulo {
+    height: 58px;
+    padding-bottom: 15px;
+}
+
+.adote-texto-paragrafo {
+    padding-bottom: 1em;
+    width: 200px;
+    color: var(--color-dark-gray);
+    font-family: var(--type);
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.adote-conteudo {
+    display: flex;
+}
+
+.icone {
+    width: 134px;
+}
+
+.icone-conteudo {
+    display: flex;
+    gap: 10px;
+}
+
+.icone-conteudo-conjunto-svg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone-conteudo-svg {
+    width: auto;
+    height: 25px;
+    padding-bottom: 12px;
+}
+
+.renovavel {
+    padding-bottom: 20px;
+}
+
+.oceanos {
+    
+}
+
+.recursos {
+    
+}
+
+.decomposicao {
+    
+}
+
+.reciclavel {
+    
+}
+
+.icone-conteudo-texto {
+    width: 98px;
+    color: var(--color-dark-gray);
+    font-family: var(--type);
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -0.18px;
+    padding-bottom: 18px;
 }
