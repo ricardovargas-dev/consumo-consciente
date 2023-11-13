@@ -110,29 +110,31 @@
 }
 
 .img-copo {
-    width: 220px; 
+    width: 215px; 
     height: auto;
 }
 
 .flechas-copo {
-    width: 350px; 
+    width: 390px; 
     height: auto; 
 }
 
-.flechas-copo,
 .img-copo {
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
     z-index: 1; 
+    left: 50%;
+    right: 50%;
 }
 
 .flechas-copo {
-    left: 52%;
-}
-
-.img-copo {
-    left: 49.9%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; 
+    left: 50%;
+    right: 50%;
 }
 
 .metade-1,
