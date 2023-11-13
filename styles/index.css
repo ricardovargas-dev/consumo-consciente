@@ -64,13 +64,10 @@
     line-height: normal;
 }
 
-.vantagens-copo {
-    font-family: var(--type);
-}
-
 .vantagens-copo-texto {
     color: var(--color-white);
     text-align: center;
+    font-family: 'Proxima Nova';
     font-size: 21.667px;
     font-style: normal;
     font-weight: 400;
@@ -80,6 +77,7 @@
 .vantagens-copo-titulo {
     color: var(--color-light-green);
     text-align: center;
+    font-family: 'Proxima Nova';
     font-size: 36px;
     font-style: normal;
     font-weight: 800;
