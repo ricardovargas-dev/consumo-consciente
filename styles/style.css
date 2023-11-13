@@ -16,7 +16,7 @@
 body {
     color: var(--color-dark-gray);
     background-color: var(--color-white);
-    font-family: var(--type);
+    font-family: var(--type), sans-serif;
     font-size: 9px;
     font-weight: 400;
     letter-spacing: 0px;
