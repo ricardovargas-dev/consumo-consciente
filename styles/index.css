@@ -32,6 +32,11 @@
     padding: 3em  0em 1.75em 0em;
 }
 
+.copo-img {
+    width: 338px;
+    height: auto;
+}
+
 .copo-flecha {
     height: 58px;
 }
@@ -105,8 +110,8 @@
 }
 
 .img-copo {
-    width: 200px; 
-    height: auto; 
+    width: 220px; 
+    height: auto;
 }
 
 .flechas-copo {
@@ -127,7 +132,7 @@
 }
 
 .img-copo {
-    left: 50%;
+    left: 49.9%;
 }
 
 .metade-1,
@@ -153,7 +158,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 4em;
+    padding: 4em 0em 3em 0em;
 }
 
 .adote-conteudo {
@@ -161,8 +166,8 @@
 }
 
 .adote-titulo {
-    height: 58px;
-    padding-bottom: 15px;
+    height: 60px;
+    padding-bottom: 25px;
 }
 
 .adote-texto-paragrafo {
@@ -178,6 +183,10 @@
 
 .adote-conteudo {
     display: flex;
+}
+
+.adote-texto {
+    padding-top: 7px;
 }
 
 .icone {
@@ -199,27 +208,7 @@
 .icone-conteudo-svg {
     width: auto;
     height: 25px;
-    padding-bottom: 12px;
-}
-
-.renovavel {
-    padding-bottom: 20px;
-}
-
-.oceanos {
-    
-}
-
-.recursos {
-    
-}
-
-.decomposicao {
-    
-}
-
-.reciclavel {
-    
+    padding-bottom: 16px;
 }
 
 .icone-conteudo-texto {
@@ -231,5 +220,59 @@
     font-weight: 700;
     line-height: 100%;
     letter-spacing: -0.18px;
+}
+
+.texto-renovavel {
+    padding-top: 7px;
+    padding-bottom: 21px;
+} 
+
+.texto-oceanos {
+    padding-bottom: 17px;
+}
+
+.texto-recursos {
     padding-bottom: 18px;
+}
+
+.texto-decomposicao {
+    padding-bottom: 18px;
+}
+
+.texto-reciclavel {
+    padding-bottom: 0px;
+} 
+
+/* SEÇÃO RODAPE */
+.rodape {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-thin-gray);
+    padding: 29px;
+    gap: 25px;
+}
+
+.rodape-logo-brsupply {
+    width: 120px;
+    height: auto;
+}
+
+.rodape-texto {
+    color: var(--color-dark-gray);
+    font-family: var(--type);
+    font-size: 9.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: -0.19px;
+}
+
+.rodape-site {
+    color: var(--color-orange);
+    font-family: var(--type);
+    font-size: 9.5px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -0.19px;
 }
