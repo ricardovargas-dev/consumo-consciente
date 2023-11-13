@@ -11,11 +11,11 @@
 .consumo-consciente {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 11px;
 }
 
 .consumo-consciente-logo {
-    height: 80px;
+    height: 70px;
     position: center;
 }
 
@@ -23,27 +23,22 @@
     color: var(--color-white);
     text-align: center;
     font-family: var(--type);
-    font-size: 20.833px;
+    font-size: 18px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: normal;
 }
 
 .copo-seu-logo {
-    padding: 3em  0em 1.75em 0em;
+    padding: 2.5em  0em 1em 0em;
 }
 
 .copo-img {
-    width: 338px;
-    height: auto;
-}
-
-.copo-flecha {
-    height: 58px;
+    width: auto;
+    height: 330px;
 }
 
 .conjunto-flecha-texto {
-    
     position: absolute;
 }
 
@@ -160,18 +155,31 @@
 /* SEÇÃO ADOTE */
 .adote {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     padding: 4em 0em 3em 0em;
 }
 
+.adote-desktop {
+    display: none;
+}
+
+.adote-mobile {
+    display: block;
+}
+
 .adote-conteudo {
+    display: flex;
     gap: 20px;
 }
 
 .adote-titulo {
     height: 60px;
     padding-bottom: 25px;
+}
+
+.adote-titulo__desk {
+    display: none;
 }
 
 .adote-texto-paragrafo {
@@ -183,10 +191,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: 125%;
-}
-
-.adote-conteudo {
-    display: flex;
 }
 
 .adote-texto {
@@ -251,6 +255,7 @@
 .rodape {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: var(--color-thin-gray);
     padding: 29px;
     gap: 25px;
@@ -279,4 +284,156 @@
     font-weight: 700;
     line-height: 100%;
     letter-spacing: -0.19px;
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1280px) {
+    /* SEÇÃO HOME */
+    .home {
+        height: 100vh;
+        border: 4em 0em;
+    }
+
+    .consumo-consciente-logo {
+        height: 80px;
+    }
+
+    .consumo-consciente-atitudes {
+        font-size: 21px;
+    }
+
+    .copo-seu-logo {
+        padding: 4.5em  0em 2.5em 0em;
+    }
+
+    .copo-img {
+        width: auto;
+        height: 580px;
+    }
+
+    .seta {
+        height: 8px;
+        padding: 3em 0em 0em 0em;
+        position: absolute;
+        bottom: 2.5em;
+    }
+
+    .selos {
+        gap: 900px;
+    }
+
+    .FSC {
+        height: 27px;
+    }
+    
+    .produto-sustentavel {
+        height: 25px;
+    }
+
+    /* SEÇÃO PAPEL VS PLASTICO */
+    .papel-vs-plastico {
+        height: 100vh;
+     }
+    
+    .img-copo {
+        width: 370px; 
+        height: auto;
+    }
+    
+    .flechas-copo {
+        width: 700px; 
+        height: auto; 
+        top: 51%;
+        left: 49.8%;
+    }
+
+    /* SEÇÃO ADOTE */
+    .adote {
+        height: 80vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0em 20em 0em 0em;
+        gap: 120px;
+    }
+
+    .adote-desktop {
+        display: block;
+    }
+
+    .adote-mobile {
+        display: none;
+    }
+
+    .adote-texto-paragrafo {
+        width: 450px;
+        font-size: 17px;
+    }
+
+    .adote-titulo {
+        display: none;
+    }
+
+    .adote-titulo__desk {
+        display: block;
+        height: 150px;
+        padding-bottom: 25px;
+    }
+
+    .icone-conteudo {
+        gap: 25px;
+    }
+
+    .icone-conteudo-svg {
+        height: 65px;
+        padding-bottom: 35px;
+    }
+
+    .icone-conteudo-texto {
+        width: 252px;
+        font-size: 20px;
+    }
+
+    .texto-renovavel {
+        padding-top: 12px;
+        padding-bottom: 60px;
+    } 
+    
+    .texto-oceanos {
+        padding-bottom: 53px;
+    }
+    
+    .texto-recursos {
+        padding-bottom: 50px;
+    }
+    
+    .texto-decomposicao {
+        padding-bottom: 51px;
+    }
+    
+    .texto-reciclavel {
+        padding-bottom: 0px;
+    } 
+
+    /* SEÇÃO RODAPE */
+    .rodape {
+        padding: 40px;
+        gap: 35px;
+    }   
+
+    .rodape-logo-brsupply {
+        width: 170px;
+    }
+    
+    .rodape-texto {
+        font-size: 12px;
+        letter-spacing: -0.19px;
+        padding-bottom: 5px;
+    }
+    
+    .rodape-site {
+        font-size: 12px;
+        letter-spacing: -0.19px;
+    }
 }
