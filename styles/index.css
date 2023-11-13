@@ -155,9 +155,14 @@
 /* SEÇÃO ADOTE */
 .adote {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     padding: 4em 0em 3em 0em;
+}
+
+.adote-secao-conteudo {
+    display: flex;
+    flex-direction: row;
 }
 
 .adote-desktop {
@@ -169,7 +174,6 @@
 }
 
 .adote-conteudo {
-    display: flex;
     gap: 20px;
 }
 
