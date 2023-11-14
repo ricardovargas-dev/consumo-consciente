@@ -42,23 +42,6 @@
     position: absolute;
 }
 
-.copo-texto {
-    font-family: var(--type);
-    font-size: 11px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: normal;
-    padding: 10px 0px 0px 35px;
-}
-
-.marca-bold {
-    font-family: var(--type);
-    font-size: 12.5px;
-    font-style: italic;
-    font-weight: 700;
-    line-height: normal;
-}
-
 .vantagens-copo-texto {
     color: var(--color-white);
     text-align: center;
@@ -88,6 +71,7 @@
 .selos {
     display: flex;
     flex-direction:row;
+    justify-content: center;
     gap: 11em;
 }
 
@@ -282,7 +266,86 @@
     letter-spacing: -0.19px;
 }
 
-/* DESKTOP */
+/* RESPONSIVIDADE SMARTPHONE 320px */
+@media screen and (max-width: 360px) {
+    /* SEÇÃO HOME */
+    .consumo-consciente {
+        gap: 10px;
+    }
+
+    .consumo-consciente-logo {
+        height: 65px;
+    }
+
+    .consumo-consciente-atitudes {
+        font-size: 16.5px;
+    }
+
+    .copo-img {
+        height: 300px;
+    }
+
+    .vantagens-copo-texto {
+        font-size: 19px;
+    }
+
+
+    /* SEÇÃO PAPEL VS PLÁSTICO */
+    .papel-vs-plastico {
+        height: 360px;
+    }
+
+    .img-copo {
+        width: 165px; 
+    }
+
+    .flechas-copo {
+        width: 320px; 
+    }
+
+    /* SEÇÃO ADOTE */
+    .adote-conteudo {
+        gap: 10px;
+    }
+
+    .adote-titulo {
+        height: 50px;
+    }
+
+    .adote-texto-paragrafo {
+        width: 150px;
+        font-family: 5px;
+        line-height: 115%;
+    }
+
+    .adote-texto {
+        padding-top: 5px;
+    }
+
+    .icone-conteudo-svg {
+        padding-bottom: 24px;
+    }
+
+    .texto-renovavel {
+        padding-top: 5px;
+        padding-bottom: 30px;
+    } 
+
+    .texto-oceanos {
+        padding-bottom: 27px;
+    }
+
+    .texto-recursos {
+        padding-bottom: 27px;
+    }
+
+    .texto-decomposicao {
+        padding-bottom: 26px;
+    }
+    
+}
+
+/* RESPONSIVIDADE DESKTOP */
 @media screen and (min-width: 1280px) {
     /* SEÇÃO HOME */
     .home {
@@ -319,11 +382,11 @@
     }
 
     .FSC {
-        height: 27px;
+        height: 40px;
     }
     
     .produto-sustentavel {
-        height: 25px;
+        height: 38x;
     }
 
     /* SEÇÃO PAPEL VS PLASTICO */
