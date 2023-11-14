@@ -72,11 +72,13 @@
     display: flex;
     flex-direction:row;
     justify-content: center;
+    align-items: center;
     gap: 11em;
 }
 
 .FSC {
-    height: 35px;
+    height: 60px;
+    width: auto;
 }
 
 .produto-sustentavel {
@@ -289,6 +291,10 @@
         font-size: 19px;
     }
 
+    .selos {
+        gap: 5em;
+    }
+
 
     /* SEÇÃO PAPEL VS PLÁSTICO */
     .papel-vs-plastico {
@@ -382,11 +388,12 @@
     }
 
     .FSC {
-        height: 40px;
+        height: 80px;
+        width: auto;
     }
     
     .produto-sustentavel {
-        height: 38x;
+        height: 43px;
     }
 
     /* SEÇÃO PAPEL VS PLASTICO */
