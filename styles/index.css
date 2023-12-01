@@ -351,8 +351,166 @@
     
 }
 
+/* RESPONSIVIDADE NOTEBOOK */
+@media screen and (min-width: 1000px) and (max-width: 1440px) {
+    /* SEÇÃO HOME */
+    .home {
+        height: 100vh;
+        border: 4em 0em;
+    }
+
+    .consumo-consciente-logo {
+        height: 80px;
+    }
+
+    .consumo-consciente-atitudes {
+        font-size: 21px;
+    }
+
+    .copo-seu-logo {
+        padding: 4.5em  0em 2.5em 0em;
+    }
+
+    .copo-img {
+        width: auto;
+        height: 380px;
+    }
+
+    .vantagens-copo-texto {
+        font-size: 30px;
+    }
+    
+    .vantagens-copo-titulo {
+        font-size: 50px;   
+    }
+
+    .seta {
+        height: 8px;
+        padding: 4em 0em 0em 0em;
+    }
+
+    .selos {
+        gap: 900px;
+    }
+
+    .FSC {
+        height: 60px;
+        width: auto;
+    }
+    
+    .produto-sustentavel {
+        height: 35px;
+    }
+
+    /* SEÇÃO PAPEL VS PLASTICO */
+    .papel-vs-plastico {
+        height: 100vh;
+     }
+    
+    .img-copo {
+        width: 370px; 
+        height: auto;
+    }
+    
+    .flechas-copo {
+        width: 700px; 
+        height: auto; 
+        top: 51%;
+        left: 49.8%;
+    }
+
+    /* SEÇÃO ADOTE */
+    .adote {
+        height: 80vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 2em 18em 0em 0em;
+    }
+
+    .adote-conteudo {
+        gap: 120px;
+    }
+
+    .adote-titulo {
+        display: none;
+    }
+
+    .adote-titulo__desk {
+        display: block;
+        height: 150px;
+        padding-bottom: 25px;
+    }
+
+    .adote-texto-paragrafo {
+        width: 450px;
+        font-size: 17px;
+    }
+
+    .icone-conteudo-conjunto-texto {
+        height: 300px;
+    }
+
+    .icone-conteudo {
+        gap: 25px;
+    }
+
+    .icone-conteudo-svg {
+        height: 65px;
+        padding-bottom: 35px;
+    }
+
+    .icone-conteudo-texto {
+        width: 252px;
+        font-size: 20px;
+    }
+
+    .texto-renovavel {
+        padding-top: 12px;
+        padding-bottom: 60px;
+    } 
+    
+    .texto-oceanos {
+        padding-bottom: 53px;
+    }
+    
+    .texto-recursos {
+        padding-bottom: 50px;
+    }
+    
+    .texto-decomposicao {
+        padding-bottom: 51px;
+    }
+    
+    .texto-reciclavel {
+        padding-bottom: 0px;
+    } 
+
+    /* SEÇÃO RODAPE */
+    .rodape {
+        padding: 40px;
+        gap: 35px;
+    }   
+
+    .rodape-logo-brsupply {
+        width: 170px;
+    }
+    
+    .rodape-texto {
+        font-size: 12px;
+        letter-spacing: -0.19px;
+        padding-bottom: 5px;
+    }
+    
+    .rodape-site__botao {
+        font-size: 12px;
+        letter-spacing: -0.19px;
+    }
+}
+
 /* RESPONSIVIDADE DESKTOP */
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1441px) {
     /* SEÇÃO HOME */
     .home {
         height: 100vh;
