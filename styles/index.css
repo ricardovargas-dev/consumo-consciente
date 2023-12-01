@@ -355,38 +355,38 @@
 @media screen and (min-width: 1000px) and (max-width: 1440px) {
     /* SEÇÃO HOME */
     .home {
-        height: 100vh;
+        height: 112vh;
         border: 4em 0em;
     }
 
     .consumo-consciente-logo {
-        height: 80px;
+        height: 65px;
     }
 
     .consumo-consciente-atitudes {
-        font-size: 21px;
+        font-size: 18px;
     }
 
     .copo-seu-logo {
-        padding: 4.5em  0em 2.5em 0em;
+        padding: 2.5em  0em 1.5em 0em;
     }
 
     .copo-img {
         width: auto;
-        height: 380px;
+        height: 400px;
     }
 
     .vantagens-copo-texto {
-        font-size: 30px;
+        font-size: 24px;
     }
     
     .vantagens-copo-titulo {
-        font-size: 50px;   
+        font-size: 45px;   
     }
 
     .seta {
         height: 8px;
-        padding: 4em 0em 0em 0em;
+        padding: 2em;
     }
 
     .selos {
@@ -399,7 +399,7 @@
     }
     
     .produto-sustentavel {
-        height: 35px;
+        height: 37px;
     }
 
     /* SEÇÃO PAPEL VS PLASTICO */
@@ -408,20 +408,20 @@
      }
     
     .img-copo {
-        width: 370px; 
+        width: 330px; 
         height: auto;
     }
     
     .flechas-copo {
-        width: 700px; 
+        width: 630px; 
         height: auto; 
         top: 51%;
-        left: 49.8%;
+        left: 49%;
     }
 
     /* SEÇÃO ADOTE */
     .adote {
-        height: 80vh;
+        height: 100vh;
         display: flex;
         flex-direction: row;
         align-items: center;
