@@ -352,7 +352,7 @@
 }
 
 /* RESPONSIVIDADE NOTEBOOK */
-@media screen and (min-width: 1000px) and (max-width: 1440px) {
+@media screen and (min-width: 1000px) and (max-width: 1728px) {
     /* SEÇÃO HOME */
     .home {
         height: 112vh;
@@ -510,7 +510,7 @@
 }
 
 /* RESPONSIVIDADE DESKTOP */
-@media screen and (min-width: 1441px) {
+@media screen and (min-width: 1729px) {
     /* SEÇÃO HOME */
     .home {
         height: 100vh;
